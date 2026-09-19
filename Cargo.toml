@@ -30,6 +30,7 @@ members = [
   "plugins/examples/gain_gui_iced",
   "plugins/examples/gain_gui_vizia",
   "plugins/examples/midi_inverter",
+  "plugins/examples/mono",
   "plugins/examples/poly_mod_synth",
   "plugins/examples/sine",
   "plugins/examples/stft",

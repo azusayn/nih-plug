@@ -1,0 +1,11 @@
+[package]
+name = "mono"
+version = "0.1.0"
+edition = "2021"
+license = "ISC"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nih_plug = { path = "../../../", features = ["assert_process_allocs"] }
